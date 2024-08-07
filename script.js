@@ -15,3 +15,19 @@
 // function days(index,date){
 //     day=day+index+";"+date+"<br>"
 // }
+
+// let sum=0
+// const num=[56,23,67,90]
+// num.forEach(myNum)
+// document.write(sum)
+// function myNum(item){
+//     sum+=item
+// }
+
+
+// const num=[56,23,67,90]
+// num.forEach(myNum)
+// document.write(num)
+// function myNum(index,item,arr){
+//     arr[index]=item*10
+// }
