@@ -31,3 +31,44 @@
 // function myNum(index,item,arr){
 //     arr[index]=item*10
 // }
+
+
+//event css
+// let button = document.querySelector("#btn1")
+// button.addEventListener('click', (e) => {
+//     console.log(e)
+//     console.log(e.type)
+// })
+
+// button.addEventListener('mouseover', () => {
+//     console.log("this is event listner")
+
+// })
+// let handler3 = () => {
+//     console.log("this is handler 3")
+// }
+
+// button.addEventListener('click', handler3
+// )
+
+
+
+
+// button.addEventListener('dbclick', () => {
+//     console.log("this is event listner")
+// })
+
+
+// button.removeEventListener('click', handler3
+
+// )
+
+
+// const myDiv=document.getElementById("myDIV")
+// const myFunction=()=>{
+//     document.getElementById("demo").innerHTML=Math.random()
+// }
+// myDiv.addEventListener("mousemove",myFunction)
+// const removeHandler=()=> {
+//     document.removeEventListener("mousemove",removeHandler)
+// }
