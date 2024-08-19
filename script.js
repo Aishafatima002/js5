@@ -72,3 +72,31 @@
 // const removeHandler=()=> {
 //     document.removeEventListener("mousemove",removeHandler)
 // }
+
+// const multiplication=(a,b)=>{
+//     return a*b
+// }
+// console.log(multiplication(10,80))
+
+// const div_ele=document.querySelector("div")
+// console.log(div_ele)
+// let attr =div_ele.getAttribute("class")
+// console.log(attr)
+// let set =document.querySelector("p")
+// console.log(set.setAttribute("id","paragraph1"))
+
+let paragraph=document.querySelector("p")
+paragraph.style.backgroundColor="blue"
+paragraph.style.color="orange"
+paragraph.style.fontFamily="Gill Sans"
+
+//node.append:add at end of the node
+//node.prepend:add at start of node
+//node.before:add before
+//node.after:after
+let newBtn=document.createElement("button")
+newBtn.innerText="click me"
+console.log(newBtn)
+let div=document.querySelector("div")
+div.prepend(newBtn)
+ 
