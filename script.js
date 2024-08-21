@@ -85,18 +85,24 @@
 // let set =document.querySelector("p")
 // console.log(set.setAttribute("id","paragraph1"))
 
-let paragraph=document.querySelector("p")
-paragraph.style.backgroundColor="blue"
-paragraph.style.color="orange"
-paragraph.style.fontFamily="Gill Sans"
+// let paragraph=document.querySelector("p")
+// paragraph.style.backgroundColor="blue"
+// paragraph.style.color="orange"
+// paragraph.style.fontFamily="Gill Sans"
 
-//node.append:add at end of the node
-//node.prepend:add at start of node
-//node.before:add before
-//node.after:after
-let newBtn=document.createElement("button")
-newBtn.innerText="click me"
-console.log(newBtn)
-let div=document.querySelector("div")
-div.prepend(newBtn)
- 
+// //node.append:add at end of the node
+// //node.prepend:add at start of node
+// //node.before:add before
+// //node.after:after
+// let newBtn=document.createElement("button")
+// newBtn.innerText="click me"
+// console.log(newBtn)
+// let div=document.querySelector("div")
+// div.prepend(newBtn)
+
+// const event1 = (event) => {
+   
+//     console.log("Button was clicked!", event);
+// };
+
+// newBtn.addEventListener("click", event1)
