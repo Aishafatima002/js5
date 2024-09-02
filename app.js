@@ -99,3 +99,22 @@
 // let aiza=new MY("aiza")
 
 // console.log(aiza.sayHello())
+// var size=5
+// var a=5
+// var sizse=4
+// for ( var j = size;  j <5;  j--) {
+//    a=a-2
+  
+    
+// }
+// console.log(a)
+
+
+let person {
+    firstName="john"
+    lastName="alex"
+}
+sayHello(){
+    console.log("hello my name is"+this.firstName+this.lastName)
+}
+
