@@ -109,12 +109,70 @@
 // }
 // console.log(a)
 
+//object method
+// let person ={
+//     firstName:"john",
+//     lastName:"alex",
+//     age:19,
+//     email:"fatima34@gmail.com",
 
-let person {
-    firstName="john"
-    lastName="alex"
-}
-sayHello(){
-    console.log("hello my name is"+this.firstName+this.lastName)
-}
+// sayHello(){
+//     console.log("Hello my name is "+this.firstName+" "+this.lastName+" "+car.brand)
+// },
+// fullName:function(){
+// return this.age+" "+this.email
+// }
+// }
+// console.log(person)
+
+
+// let car={
+//     brand:"toyota",
+//     model:"jexas",
+// }
+// console.log(person)
+// person.sayHello()
+// console.log(person.fullName())
+
+//object constructor function
+//  function student(name,cls,age,fatherName,email){
+//         this.name=name,
+//         this.cls=cls,
+//         this.age=age,
+//         this.fatherName=fatherName,
+//         this.email=email
+//  }
+
+//  const student1=  new student("Aisha","12","16","ahemad","123@gmail.com");
+//  student1.nationality="pakistan"
+//  console.log(student1)
+
+//  const student2=  new student("maryam","12","16","roohan","mk23@gmail.com");
+//  console.log(student2)
+  
+ function patient(name,age,dc_name,disease,contactNo){
+    this.name=name,
+    this.age=age,
+    this.dc_name=dc_name
+    this.disease=disease
+    this.contactNo=contactNo
+ }
+
+ patient.prototype.noSlip=56
+
+
+
+ const patient1=new patient("sara",23," Dr Munza","eye infection",923453135)
+ patient1.address="rj hiegts"
+ let my ="age"in patient1
+ console.log(my)
+ console.log(patient1);
+ document.write("<h1>Patient Information</h1>");
+ document.write("<p><strong>Name:</strong> " + patient1.name + "</p>");
+ document.write("<p><strong>No slip:</strong> " + patient1.noSlip + "</p>")
+ document.write("<p><strong>Age:</strong> " + patient1.age + "</p>");
+ document.write("<p><strong>Doctor's Name:</strong> " + patient1.dc_name + "</p>");
+ document.write("<p><strong>Disease:</strong> " + patient1.disease + "</p>");
+ document.write("<p><strong>Contact Number:</strong> " + patient1.contactNo + "</p>");
+ document.write("<p><strong>Address:</strong> " + patient1.address + "</p>");
 
