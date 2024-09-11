@@ -150,29 +150,118 @@
 //  const student2=  new student("maryam","12","16","roohan","mk23@gmail.com");
 //  console.log(student2)
   
- function patient(name,age,dc_name,disease,contactNo){
-    this.name=name,
-    this.age=age,
-    this.dc_name=dc_name
-    this.disease=disease
-    this.contactNo=contactNo
- }
+//  function patient(name,age,dc_name,disease,contactNo){
+//     this.name=name,
+//     this.age=age,
+//     this.dc_name=dc_name
+//     this.disease=disease
+//     this.contactNo=contactNo
+//  }
 
- patient.prototype.noSlip=56
+//  patient.prototype.noSlip=56
 
 
 
- const patient1=new patient("sara",23," Dr Munza","eye infection",923453135)
- patient1.address="rj hiegts"
- let my ="age"in patient1
- console.log(my)
- console.log(patient1);
- document.write("<h1>Patient Information</h1>");
- document.write("<p><strong>Name:</strong> " + patient1.name + "</p>");
- document.write("<p><strong>No slip:</strong> " + patient1.noSlip + "</p>")
- document.write("<p><strong>Age:</strong> " + patient1.age + "</p>");
- document.write("<p><strong>Doctor's Name:</strong> " + patient1.dc_name + "</p>");
- document.write("<p><strong>Disease:</strong> " + patient1.disease + "</p>");
- document.write("<p><strong>Contact Number:</strong> " + patient1.contactNo + "</p>");
- document.write("<p><strong>Address:</strong> " + patient1.address + "</p>");
+//  const patient1=new patient("sara",23," Dr Munza","eye infection",923453135)
+//  patient1.address="rj hiegts"
+//  let my ="age"in patient1
+//  console.log(my)
+//  console.log(patient1);
+//  document.write("<h1>Patient Information</h1>");
+//  document.write("<p><strong>Name:</strong> " + patient1.name + "</p>");
+//  document.write("<p><strong>No slip:</strong> " + patient1.noSlip + "</p>")
+//  document.write("<p><strong>Age:</strong> " + patient1.age + "</p>");
+//  document.write("<p><strong>Doctor's Name:</strong> " + patient1.dc_name + "</p>");
+//  document.write("<p><strong>Disease:</strong> " + patient1.disease + "</p>");
+//  document.write("<p><strong>Contact Number:</strong> " + patient1.contactNo + "</p>");
+//  document.write("<p><strong>Address:</strong> " + patient1.address + "</p>");
 
+// function checkForLastName() {
+//    if (document.getElementById("lastNameField").value.length === 0 &&) {
+//    alert("Please enter your last name");
+//    document.getElementById("lastNameField").focus();
+//    return false;
+//    }
+
+//    }
+   
+// let a=prompt("enter  a digits")
+// let b =prompt("enter a digits")
+// console.log("the value of:"+a+ b)
+// console.log("hello world")
+// function addition(){
+//    console.log("the sum of a num")
+// }
+// addition();
+// console.log("js chap")
+// function registeration(){
+// try{
+//    console.log("hello world")
+//    registeration()
+// }
+// catch(err){
+//    console.log(err)
+// } 
+// // }
+// // registeration()
+// try n catch
+// function greetWorld(){
+//    try{
+//       var greet="hello world"
+//       alert(greet())
+//       throw "syntax error"
+      
+//    }
+//    catch(err){
+//        console.log(err)
+//    }
+// }
+// greetWorld()
+
+// function myFunction() {
+//    const message=document.getElementById("p01");
+//    message.innerHTML=""
+//    let x=document.getElementById("demo").Value
+//    try{
+//       if(x.trim()=="") throw "empty";
+//       if (xisNaN) throw "not a number"
+//       x = Number(x);
+//       if(x < 5)  throw "too low";
+//       if(x > 10)   throw "too high";
+//     }
+//     catch(err) {
+//       message.innerHTML = "Input is " + err;
+//     }   
+      
+//    }
+// myFunction()
+
+function checkPassword() {
+   try{
+      let pass=document.getElementById("f1").value;
+      if (pass.length<8) {
+         throw "enter atleast 8 character"
+      }
+      if (pass.indexOf("")!==-1) {
+         throw "please avoid spaces";
+      }
+   
+   var numberSomewhere = false;
+   for (var i = 0; i < pass.length; i++) {
+   if (isNaN(pass(i, i+1)) === false) {
+   numberSomewhere = true;
+   break;
+   }
+   } if (
+   numberSomewhere === false) {
+   throw "Include at least 1 number.";
+   }
+}
+
+
+catch(err){ 
+   alert(err);
+}
+
+}
+checkPassword()
